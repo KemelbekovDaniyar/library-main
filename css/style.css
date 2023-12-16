@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+button {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.btn {
+	border-radius: 10px;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 14px 0;
+	transition: 0.3s;
+	background: #494949;
+	width: 100%;
+}
+
+.btn:hover {
+	box-shadow: 0px 6px 5px 2px #000000;
+}
+
+/* header */
+
+header nav .logo img {
+	border-radius: 50%;
+}
+
+header {
+	background: #fa94dd;
+	color: white;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header ul {
+	display: flex;
+	flex-direction: column;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/* books */
+
+.books_card {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 200px;
+	height: auto;
+	border: 3px solid black;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.img_card {
+	margin-bottom: 20px;
+}
+
+.txt_card h2 {
+	margin-bottom: 20px;
+}
+
+#pdfViewer {
+	display: none;
+	width: 100%;
+	height: 600px;
+}
+
+/* aside */
+
+aside {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+aside ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+aside ul li {
+	list-style: none;
+}
+
+aside ul a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	background: #fa94dd;
+	color: #000000;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+
+aside a:hover {
+	color: #fa94dd;
+	background: #000;
+}
