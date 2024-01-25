@@ -133,3 +133,13 @@ aside a:hover {
 	color: #fa94dd;
 	background: #000;
 }
+
+
+footer {
+	height: 300px;
+	background-color: #fa94dd;
+}
+
+section {
+	height: 100vh;
+}
