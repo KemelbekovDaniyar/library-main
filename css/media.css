@@ -2,6 +2,10 @@
 	.container{
 		max-width: 960px;
 	}
+
+	header {
+		padding: 15px 10px; 
+	}
 }
 @media screen and (max-width: 990px) {
 	.container{
@@ -18,11 +22,19 @@
 	}
 
 	.txt h1 {
-		font-size: 20px;
+		font-size: 17px;
 	}
 
-	.logo {
-		width: 100px;
+	.logo img {
+		width: 80px;
+	}
+
+	header li a {
+		font-size: 17px;
+	}
+
+	header li {
+		margin-bottom: 10px;
 	}
 }
 @media screen and (max-width: 540px) {
