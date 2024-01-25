@@ -14,7 +14,11 @@
 	}
 
 	.books_card {
-		justify-content: center;
+		justify-content: space-around;
+	}
+
+	.txt h1 {
+		font-size: 20px;
 	}
 }
 @media screen and (max-width: 540px) {
